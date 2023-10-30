@@ -1,0 +1,52 @@
+* {
+				box-sizing: border-box;
+			}
+			body, html {
+				margin: 0;
+				height: 100%;
+				background-color: #eadab7;
+			}
+			#header{
+				overflow: auto;
+				background-color: #8d5f48;
+				display: flex;
+			}
+			#logo {
+			height: 130px;
+			width: 130px;
+			float: left;
+			margin-left: 15px;
+			margin-right: 10px;
+			}
+			#header-name {
+			font-size: 40px;
+			font-family: ;
+			color: #f5e8d9;
+			margin-top: 37px;
+			}
+			#menu {
+				display: flex;
+				justify-content: right;
+				flex-direction: row;
+				font-size: 30px;
+				position: relative;
+				margin-top: 45px;
+				position: absolute;
+				right: 0;
+			}
+			.menu-cal {
+				padding-right:40px;
+				float: left;
+			}
+			.menu-lis {
+				padding-right: 40px;
+				float: left;
+			}
+			.menu-inspo {
+				padding-right: 40px;
+				float: left;
+			}
+			.menu-home {
+				padding-right: 40px;
+				float: left;			
+			}
